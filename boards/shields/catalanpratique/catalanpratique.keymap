@@ -14,9 +14,9 @@
         default_layer {
             bindings = <
                 &studio_unlock  &kp A       &kp Z           &kp E         &kp R         &kp T        
-                &kp E           &kp Q       &kp S           &kp D         &kp F         &kp G        
+                &kp E           &mt LGUI Q  &mt LEFT_ALT S  &mt LSHIFT D  &mt LCTRL F   &kp G        
                 &kp A           &kp W       &kp X           &kp C         &kp V         &kp B        
-                                                            &kp LGUI      &kp SPACE     &kp ENTER 
+                                                            &kp A         &kp SPACE  &kp ENTER 
             >;
         };
     };

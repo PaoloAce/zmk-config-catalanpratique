@@ -1,6 +1,6 @@
 if SHIELD_CATALANPRATIQUE
 
 config ZMK_KEYBOARD_NAME
-    default "catalanpratique"
+    default "Catalan-Pratique"
 
 endif # SHIELD_CATALANPRATIQUE

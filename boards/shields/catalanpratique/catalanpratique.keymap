@@ -13,10 +13,10 @@
 
         default_layer {
             bindings = <
-                &kp DEL  &kp A       &kp Z           &kp E         &kp R         &kp T        
-                &kp E    &mt LGUI Q  &mt LEFT_ALT S  &mt LSHIFT D  &mt LCTRL F   &kp G        
-                &kp A    &kp W       &kp X           &mt C C       &kp V         &kp B        
-                                                     &kp LGUI      &lt 1 ESCAPE  &kp ENTER 
+                &studio_unlock  &kp A       &kp Z           &kp E         &kp R         &kp T        
+                &kp E           &kp Q       &KP S           &kp D         &kp F         &kp G        
+                &kp A           &kp W       &kp X           &kp C         &kp V         &kp B        
+                                                            &kp LGUI      &kp SPACE     &kp ENTER 
             >;
         };
     };

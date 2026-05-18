@@ -20,3 +20,5 @@
 ---
 board: [ "nice_nano" ]
 shield: [ "catalanpratique" ]
+snippet: studio-rpc-usb-uart
+cmake-args: -DCONFIG_ZMK_STUDIO=y

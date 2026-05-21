@@ -14,11 +14,28 @@
 
         default_layer {
             bindings = <
-                &studio_unlock  &kp A       &kp Z           &kp E         &kp R         &kp T        
-                &kp FR_E_ACUTE  &mt LGUI Q  &mt LEFT_ALT S  &mt LSHIFT D  &mt LCTRL F   &kp G        
-                &kp FR_A_GRAVE  &kp W       &kp X           &kp C         &kp V         &kp B        
-                                                            &kp LGUI         &kp SPACE  &kp ENTER 
+                &kp ESCAPE      &kp FR_A   &kp FR_Z   &kp FR_E   &kp FR_R      &kp FR_T        
+                &kp LSHIFT      &kp FR_Q   &kp FR_S   &kp FR_D   &kp FR_F      &kp FR_G        
+                &kp LCTRL       &kp FR_W   &kp FR_X   &kp FR_C   &kp FR_V      &kp FR_B        
+                                                      &kp LGUI   &lt 1 SPACE   &kp ENTER 
             >;
+        };
+         raise {
+            bindings = <
+                &kp ESCAPE  &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3      &bt BT_SEL 4         &studio_unlock        
+                &bt BT_CLR  &none          &none          &none             &none                &none        
+                &none       &none          &none          &none             &none                &none        
+                                                          &kp LGUI          &trans               &kp ENTER 
+            >;
+        };
+         extra2 {
+            status = "reserved";
+        };
+         extra3 {
+            status = "reserved";
+        };
+         extra4 {
+            status = "reserved";
         };
     };
 };
